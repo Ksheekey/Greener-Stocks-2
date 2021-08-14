@@ -1,4 +1,4 @@
-# Project_3
+# Greener Stocks 2
 
 Group2
 Kevin Sheekey
@@ -9,19 +9,34 @@ Ravi Patel
 
 Tomorrow's Stocks
 
-  This project was our attempt at importing important information concerning the S&P 500 and using that information to assist anyone looking to learn mora about the 
-current and possibly future status of stock prices.
+This project is our updated Greener Stocks project now with a machine learning prediction.
 
-*The home page is meant to be a comfortable place for our end users as they look at both stock specific charts and also charts that present information concerning the entire s&p 500.
+In this project we used actual past data to predict the opening price for July 2nd, 2021.
 
-*Our drop down menue allows for a closer look at all chart we use in the home page.
+On page load you will see the Tree Map showing all the stocks and their percent change from May open - June close 2021. Tooltips are present when you hover your mouse over a stock for more information. The brighter red the stock, the worse it did, while the brighter green the stock, the better it did. These are broken into sectors to see how they do compared to other similar stocks. To get a closer look at a sector click the name of the sector. To return to the full tree map, re-click the sector name!
 
-* The Tree Map shows the entire S&P 500. Green means an increase in price over the last 6 months and red shows a decrease. The larger the change the larger the squares. 
+There are two dropdowns at the top of the page that are interactive with each other and with the paget itself. 
+If you know the stock you want, click the 'Select Ticker' dropwdown to find it. That dropdown has all the stocks in the S&P500. If you are researching, you can filter the Ticker dropdown by choosing a sector in the 'Select Sector' dropdown. Once you choose a sector, the Ticker dropdown will filter to just those stocks within that sector.
 
-*The Word Map allows a quick view into the news connected with the stock you wish to choose. Once the Word Map is up click an interesting word and you will find articles popping up below the Word Map. 
+Once a stock is chosen the Treemap will go away and a dashboard will appear. There are a few things to look at here.
 
-*Data is a simple page holding all of the data involved in our project. Ferel free to scrape the information.
+The first being the candlestick chart for the chosen stock with the opening prices from 6/28/21-7/1/21 and our predicted 7/2/21 opening price.
 
-*Come meet the team at the Who We Are page.
+Next to that are 3 boxes. 
+The top box will be the chosen stocks treemap square blown up. Colo and percentage will match what it was for that stock on the treemap.
+The middle box is the actual opening price for 7/2/21.
+The bottom box is our predicted opening price for 7/2/21.
+  This was done so you could see the difference plainly.
+  
+Under that is the opening prices for the stock chosen from Jan 2, 2020 - July 1, 2021. The white dots are tooltips with more informatio. This is a visual to see how the stock has been doing over the last 18 months.
 
-Thank_you for your time and please reach out with any questions. 
+Under that is a static line chart with a zero-plane to see all the stocks in the S&P500's percent change from 6/28/21 Open -7/1/21 Close (the data right before our prediction). There is a vertical red line to show where the stock chose is, and a horizontal red line to show its percent change so you can compare to the rest of the field.
+
+At the bottom is our statistics from the predictions. 
+  The left-most box is our model overview.
+  The middle box is the Top 10 gainers from close 7/1 to predicted open 7/2
+  The righ-most box is the Top 10 losers from close 7/1 to predicted open 7/2
+  
+We also have a data page with the data used as well as a who we are page to meet the team.
+
+
